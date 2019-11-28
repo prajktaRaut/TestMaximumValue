@@ -19,6 +19,8 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.testmaximum.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.testmaximum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.testmaximum.MaximumValueTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.testmaximum.MaximumValueTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/testmaximum/MaximumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testmaximum/MaximumValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testmaximum/MaximumValueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testmaximum/MaximumValueTest.java" afterDir="false" />
@@ -71,13 +73,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfString_UsingGenerics">
+  <component name="RunManager" selected="Gradle.MaximumValueTest.givenMethod_PrintMaximumValueOfAllType_UsingInternallyCalledPrintMethod">
     <configuration name="MaximumValueTest.givenMethod_FindMaximumFloat_ReturnMaxFloatValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumFloat_ReturnMaxFloatValue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaximumValueTest.givenMethod_FindMaximumInteger_ReturnMaxIntegerValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumInteger_ReturnMaxIntegerValue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -112,26 +134,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfInteger_UsingGenerics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -152,12 +154,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfString_UsingGenerics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumValueTest.givenMethod_PrintMaximumValueOfAllType_UsingInternallyCalledPrintMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfString_UsingGenerics&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_PrintMaximumValueOfAllType_UsingInternallyCalledPrintMethod&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfString_UsingGenerics" />
-        <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics" />
-        <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfInteger_UsingGenerics" />
+        <item itemvalue="Gradle.MaximumValueTest.givenMethod_PrintMaximumValueOfAllType_UsingInternallyCalledPrintMethod" />
         <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumString_ReturnMaxStringValue" />
         <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumFloat_ReturnMaxFloatValue" />
+        <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumInteger_ReturnMaxIntegerValue" />
+        <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfInteger_UsingGenerics" />
       </list>
     </recent_temporary>
   </component>

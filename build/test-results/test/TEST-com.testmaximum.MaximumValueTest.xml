@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.testmaximum.MaximumValueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T12:38:06" hostname="admin1-desktop" time="0.001">
+<testsuite name="com.testmaximum.MaximumValueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T13:05:06" hostname="admin1-desktop" time="0.002">
   <properties/>
-  <testcase name="givenMethod_FindMaximumValue_ReturnMaxValueOfString_UsingGenerics" classname="com.testmaximum.MaximumValueTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenMethod_PrintMaximumValueOfAllType_UsingInternallyCalledPrintMethod" classname="com.testmaximum.MaximumValueTest" time="0.002"/>
+  <system-out><![CDATA[Max Value of Integer is 45
+Max Value of Float is 3.3
+Max Value of String is xyz
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

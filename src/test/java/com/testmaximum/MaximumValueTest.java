@@ -26,25 +26,13 @@ public class MaximumValueTest {
         Assert.assertEquals("xyz",maxValue);
     }
 
-    @Test
-    public void givenMethod_FindMaximumValue_ReturnMaxValueOfInteger_UsingGenerics() {
+   @Test
+   public void givenMethod_PrintMaximumValueOfAllType_UsingInternallyCalledPrintMethod() {
 
-        Integer maxValue=new MaximumValue<Integer>(10,20,30).testMaximum();
-        Assert.assertEquals(Integer.valueOf(30),maxValue);
-    }
+       new MaximumValue<Integer,Float,String>(12,23,45,1.2f,2.1f,3.3f,"abc","xyz","pqr").testMaximum();
 
-    @Test
-    public void givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics() {
+   }
 
-        Float maxValue=new MaximumValue<Float>(1.1f,5.2f,3.3f).testMaximum();
-        Assert.assertEquals(Float.valueOf(5.2f),maxValue);
-    }
 
-    @Test
-    public void givenMethod_FindMaximumValue_ReturnMaxValueOfString_UsingGenerics() {
-
-        String maxValue=new MaximumValue<String>("lmn","pqr","abc").testMaximum();
-        Assert.assertEquals("pqr",maxValue);
-    }
 
 }

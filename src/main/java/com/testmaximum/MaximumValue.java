@@ -1,13 +1,27 @@
 package com.testmaximum;
 
-public class MaximumValue<E extends Comparable<E>> {
+public class MaximumValue<E,Y,Z> {
 
     E x,y,z;
+    Y p,q,r;
+    Z l,m,n;
 
     public MaximumValue(E x, E y, E z) {
         this.x = x;
         this.y = y;
         this.z = z;
+    }
+
+    public MaximumValue(E x, E y, E z, Y p, Y q, Y r, Z l, Z m, Z n) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+        this.p = p;
+        this.q = q;
+        this.r = r;
+        this.l = l;
+        this.m = m;
+        this.n = n;
     }
 
     public static<E> E FindMaxValueOfAnyType(E a, E b, E c) {
@@ -70,11 +84,21 @@ public class MaximumValue<E extends Comparable<E>> {
 
 
     }
-    public E testMaximum() {
+    public void testMaximum() {
 
-        E value =FindMaxValueOfAnyType(x,y,z);
+        E value1 =FindMaxValueOfAnyType(x,y,z);
+        Y value2=FindMaxValueOfAnyType(p,q,r);
+        Z value3=FindMaxValueOfAnyType(l,m,n);
 
-        return value;
+        printMax(value1,value2,value3);
     }
+
+    private void printMax(E value1, Y value2, Z value3) {
+
+        System.out.println("Max Value of Integer is "+value1);
+        System.out.println("Max Value of Float is "+value2);
+        System.out.println("Max Value of String is "+value3);
+    }
+
 
 }
