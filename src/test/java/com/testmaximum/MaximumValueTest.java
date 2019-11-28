@@ -11,7 +11,6 @@ public class MaximumValueTest {
     public void givenMethod_FindMaximumInteger_ReturnMaxIntegerValue() {
 
         Integer maxValue=maximumValue.findMaximumIntegerValue(40,70,30);
-
         Assert.assertEquals(Integer.valueOf(70),maxValue);
 
     }
@@ -20,8 +19,15 @@ public class MaximumValueTest {
     public void givenMethod_FindMaximumFloat_ReturnMaxFloatValue() {
 
         Float maxValue=maximumValue.findMaximumFloatValue(0.5f,1.2f,5.3f);
-
         Assert.assertEquals(Float.valueOf(5.3f),maxValue);
+
+    }
+
+    @Test
+    public void givenMethod_FindMaximumString_ReturnMaxStringValue() {
+
+        String maxValue=maximumValue.findMaximumStringValue("abc","xyz","pqr");
+        Assert.assertEquals("xyz",maxValue);
 
     }
 }
