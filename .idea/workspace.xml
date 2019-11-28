@@ -56,6 +56,9 @@
   </component>
   <component name="ProjectId" id="1UF10J6IlE8YbQb3Kc8fDQV9OBS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tdd Program" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -109,12 +112,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumValueTest.givenMethod_FindMaximumValueOfAnyType_ReturnMaxValueOfAnyType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumValueOfAnyType_ReturnMaxValueOfAnyType&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -129,12 +132,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfInteger_UsingGenerics" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.testmaximum.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfInteger_UsingGenerics&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -173,7 +176,7 @@
       <list>
         <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfString_UsingGenerics" />
         <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfFloat_UsingGenerics" />
-        <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValueOfAnyType_ReturnMaxValueOfAnyType" />
+        <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumValue_ReturnMaxValueOfInteger_UsingGenerics" />
         <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumString_ReturnMaxStringValue" />
         <item itemvalue="Gradle.MaximumValueTest.givenMethod_FindMaximumFloat_ReturnMaxFloatValue" />
       </list>

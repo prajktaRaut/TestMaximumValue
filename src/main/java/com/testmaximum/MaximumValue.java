@@ -2,6 +2,14 @@ package com.testmaximum;
 
 public class MaximumValue<E extends Comparable<E>> {
 
+    E x,y,z;
+
+    public MaximumValue(E x, E y, E z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
     public static<E> E FindMaxValueOfAnyType(E a, E b, E c) {
 
         if (a.toString().compareTo(b.toString())>0)
@@ -17,7 +25,7 @@ public class MaximumValue<E extends Comparable<E>> {
 
     }
 
-    public Integer findMaximumIntegerValue(Integer a, Integer b, Integer c) {
+    public static Integer findMaximumIntegerValue(Integer a, Integer b, Integer c) {
 
         if (a.compareTo(b)>0)
             return a ;
@@ -32,8 +40,7 @@ public class MaximumValue<E extends Comparable<E>> {
 
     }
 
-
-    public Float findMaximumFloatValue(Float a, Float b, Float c) {
+    public static Float findMaximumFloatValue(Float a, Float b, Float c) {
 
         if (a.compareTo(b)>0)
             return a ;
@@ -48,7 +55,7 @@ public class MaximumValue<E extends Comparable<E>> {
 
     }
 
-    public String findMaximumStringValue(String a, String b, String c) {
+    public static String findMaximumStringValue(String a, String b, String c) {
 
         if (a.compareTo(b)>0)
             return a ;
@@ -63,4 +70,11 @@ public class MaximumValue<E extends Comparable<E>> {
 
 
     }
+    public E testMaximum() {
+
+        E value =FindMaxValueOfAnyType(x,y,z);
+
+        return value;
+    }
+
 }
